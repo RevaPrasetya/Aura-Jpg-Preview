@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Aura - Preview</title>
+    
+    <style>
+        @font-face {
+            font-family: "Lato Bold";
+            src: url('./assets/fonts/Lato-Bold.ttf');
+        }
+        @font-face {
+            font-family: "Lato Regular";
+            src: url('./assets/fonts/Lato-Regular.ttf');
+        }
+        body{
+            font-family: "Lato Regular";
+            background-color: #6B6A4C;
+            padding-top: 2rem;
+        }
+        h1{
+            font-family: "Lato Bold";
+            color: #e2c493;
+            margin-bottom: 2rem;
+        }
+        ul{
+            list-style: none;
+        }
+        li{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: .5rem 1rem;
+            margin-bottom: .5rem;
+        }
+        li:hover a{
+            color: white;
+        }
+        li:hover::after{
+            width: 2rem;
+        }
+        li::after{
+            content: "";
+            display: block;
+            background: rgba(255,255,255, 0.5);
+            height: 2px;
+            width: 0;
+            transition: ease 0.5s all;
+        }
+        a{
+            color: rgba(255,255,255,0.5);
+            text-decoration: none;
+            transition: 0.3s all;
+        }
+        .container{
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <div class="container">
+            <h1>The Aura Prabu</h1>
+            <ul>
+                <li>
+                    <a href="/prabu">Homepage</a>
+                </li>
+                <li>
+                    <a href="/prabu/about-us.html">About Us</a>
+                </li>
+                <li>
+                    <a href="/prabu/activity.html">Activity</a>
+                </li>
+                <li>
+                    <a href="/prabu/experience.html">Experience</a>
+                </li>
+                <li>
+                    <a href="/prabu/explore-lombok.html">Explore Lombok</a>
+                </li>
+                <li>
+                    <a href="/prabu/lifestyle.html">Lifestyle</a>
+                </li>
+                <li>
+                    <a href="/prabu/sustainability.html">Sustainability</a>
+                </li>
+                <li>
+                    <a href="/prabu/the-pantai-club.html">The Pantai Club</a>
+                </li>
+                <li>
+                    <a href="/prabu/wellness.html">Wellness</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+</body>
+</html>
